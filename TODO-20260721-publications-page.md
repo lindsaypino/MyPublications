@@ -15,8 +15,8 @@ noting what we learn at each step, so the whole thing can be re-run later.
 - [x] Build index.html (via build_page.py — regenerates from papers.json)
 - [x] Refine the look — dropped datasets (0 citations, no effect on stats);
       kept articles + preprints. Name stays "Lindsay Pino", no intro line.
-- [ ] Publish live with GitHub Pages
-- [ ] Mark complete
+- [x] Publish live with GitHub Pages — https://lindsaypino.github.io/MyPublications/
+- [x] Mark complete ✅ (2026-07-21)
 
 ## Design (approved plan for index.html)
 - **Look:** Talus-branded — navy `#0C015B` + teal `#36C8C8`/`#1FA6A6`, Rethink Sans
