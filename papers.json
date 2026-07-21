@@ -1,0 +1,1333 @@
+[
+  {
+    "id": "https://openalex.org/W7147614722",
+    "title": "Carafe2 enables high quality <i>in silico</i> spectral library generation for timsTOF data-independent acquisition proteomics",
+    "year": 2026,
+    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "type": "preprint",
+    "doi": "https://doi.org/10.64898/2026.03.27.714846",
+    "link": "https://doi.org/10.64898/2026.03.27.714846",
+    "cited_by_count": 2,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "authors": [
+      "Bo Wen",
+      "J. Sebastian Paez",
+      "Chris Hsu",
+      "Daniele Canzani",
+      "Alexis Taylor Chang",
+      "Nicholas Shulman",
+      "Brendan MacLean",
+      "Matthew D. Berg",
+      "Judit Villén",
+      "William E. Fondrie",
+      "Lindsay K. Pino",
+      "Michael J. MacCoss",
+      "William Stafford Noble"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W7168862846",
+    "title": "MSstatsBioNet: Integrating Statistical Analyses with Prior Knowledge Biomolecular Networks for Quantitative Proteomics and Phosphoproteomics",
+    "year": 2026,
+    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "type": "preprint",
+    "doi": "https://doi.org/10.64898/2026.07.09.737605",
+    "link": "https://doi.org/10.64898/2026.07.09.737605",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Anthony Wu",
+      "Devon Kohler",
+      "Pruthvi Prakash Navada",
+      "Julia Robbins",
+      "Gabriel Boyle",
+      "Alex Boshart",
+      "Klas Karis",
+      "Jacques Neefjes",
+      "Ana Konvalinka",
+      "Jay F. Sarthy",
+      "Lindsay K. Pino",
+      "Benjamin M. Gyori",
+      "Olga Vitek"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4411206161",
+    "title": "Neuropeptides specify and reprogram division of labor in the leafcutter ant Atta cephalotes",
+    "year": 2025,
+    "venue": "Cell",
+    "type": "article",
+    "doi": "https://doi.org/10.1016/j.cell.2025.05.023",
+    "link": "https://doi.org/10.1016/j.cell.2025.05.023",
+    "cited_by_count": 13,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 6
+      }
+    ],
+    "authors": [
+      "Michael Gilbert",
+      "Karl M. Glastad",
+      "Maxxum Fioriti",
+      "Matan Sorek",
+      "Tierney Scarpa",
+      "Freddy S Purnell",
+      "Daniel C. Xu",
+      "Lindsay K. Pino",
+      "A. Korotkov",
+      "Ali Biashad",
+      "Josue Baeza",
+      "Richard Lauman",
+      "Anastasiia Filippova",
+      "Balint Z Kacsoh",
+      "Roberto Bonasio",
+      "Mackenzie Weygandt Mathis",
+      "Benjamin A. Garcia",
+      "Andrei Seluanov",
+      "Vera Gorbunova",
+      "Shelley L. Berger"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4411319962",
+    "title": "Native, Spatiotemporal Profiling of the Global Human Regulome",
+    "year": 2025,
+    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "type": "preprint",
+    "doi": "https://doi.org/10.1101/2025.06.14.659727",
+    "link": "https://doi.org/10.1101/2025.06.14.659727",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Lindsay K. Pino",
+      "Daniele Canzani",
+      "Andrea Gutiérrez",
+      "Julia Robbins",
+      "Brian McEllin",
+      "Evan Hubbard",
+      "Erin Broderick",
+      "Anastasiya V. Prymolenna",
+      "Lillian Tatka",
+      "Sebastian Juan Paez",
+      "Gaëlle Mercenne",
+      "Kyle Siebenthall",
+      "William E. Fondrie",
+      "Alexander Federation"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4417501327",
+    "title": "Perspectives in computational mass spectrometry: recent developments and key challenges",
+    "year": 2024,
+    "venue": "Bioinformatics Advances",
+    "type": "article",
+    "doi": "https://doi.org/10.1093/bioadv/vbaf301",
+    "link": "https://doi.org/10.1093/bioadv/vbaf301",
+    "cited_by_count": 4,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 4
+      }
+    ],
+    "authors": [
+      "Timo Sachsenberg",
+      "Lindsay K. Pino",
+      "Marie A. Brunet",
+      "Isabell Bludau",
+      "Oliver Kohlbacher",
+      "Juan Antonio Vizcaíno",
+      "Wout Bittremieux"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4403051390",
+    "title": "Covalent Labeling Automated Data Analysis Platform for High Throughput in R (coADAPTr): A Proteome-Wide Data Analysis Platform for Covalent Labeling Experiments",
+    "year": 2024,
+    "venue": "Journal of the American Society for Mass Spectrometry",
+    "type": "article",
+    "doi": "https://doi.org/10.1021/jasms.4c00196",
+    "link": "https://doi.org/10.1021/jasms.4c00196",
+    "cited_by_count": 1,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "authors": [
+      "Raquel L. Shortt",
+      "Lindsay K. Pino",
+      "Emily E. Chea",
+      "Carolina Rojas Ramírez",
+      "Daniel A. Polasky",
+      "Alexey I. Nesvizhskii",
+      "Lisa M. Jones"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394757623",
+    "title": "The future role of mass spectrometry in proteomics: Embracing new technologies and building bridges for higher impact",
+    "year": 2024,
+    "venue": "Journal of Mass Spectrometry",
+    "type": "article",
+    "doi": "https://doi.org/10.1002/jms.5028",
+    "link": "https://doi.org/10.1002/jms.5028",
+    "cited_by_count": 1,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4313531883",
+    "title": "Profiling mouse brown and white adipocytes to identify metabolically relevant small ORFs and functional microproteins",
+    "year": 2023,
+    "venue": "Cell Metabolism",
+    "type": "article",
+    "doi": "https://doi.org/10.1016/j.cmet.2022.12.004",
+    "link": "https://doi.org/10.1016/j.cmet.2022.12.004",
+    "cited_by_count": 78,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 16
+      }
+    ],
+    "authors": [
+      "Thomas F. Martínez",
+      "Sally Lyons‐Abbott",
+      "Angie L. Bookout",
+      "Eduardo Vieira de Souza",
+      "Cynthia J. Donaldson",
+      "Joan Vaughan",
+      "Calvin J. Lau",
+      "Ariel Abramov",
+      "Arian F. Baquero",
+      "Karalee Baquero",
+      "Dave Friedrich",
+      "Justin Huard",
+      "Ray Davis",
+      "Bong-Chul Kim",
+      "Ty Koch",
+      "Aaron J. Mercer",
+      "Ayesha Misquith",
+      "Sara A. Murray",
+      "Sakara Perry",
+      "Lindsay K. Pino",
+      "Christina A. Sanford",
+      "Alex Simon",
+      "Yu Zhang",
+      "Garrett Zipp",
+      "Cristiano Valim Bizarro",
+      "Maxim N. Shokhirev",
+      "Andrew J. Whittle",
+      "Brian C. Searle",
+      "Michael J. MacCoss",
+      "Alan Saghatelian",
+      "Christopher A. Barnes"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4383480711",
+    "title": "nf-encyclopedia: A Cloud-Ready Pipeline for Chromatogram Library Data-Independent Acquisition Proteomics Workflows",
+    "year": 2023,
+    "venue": "Journal of Proteome Research",
+    "type": "article",
+    "doi": "https://doi.org/10.1021/acs.jproteome.2c00613",
+    "link": "https://doi.org/10.1021/acs.jproteome.2c00613",
+    "cited_by_count": 6,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "authors": [
+      "Carolyn Allen",
+      "Rico Meinl",
+      "Sebastian Juan Paez",
+      "Brian C. Searle",
+      "Seth Just",
+      "Lindsay K. Pino",
+      "William E. Fondrie"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4324128643",
+    "title": "Expanding the Epitranscriptomic RNA Sequencing and Modification Mapping Mass Spectrometry Toolbox with Field Asymmetric Waveform Ion Mobility and Electrochemical Elution Liquid Chromatography",
+    "year": 2023,
+    "venue": "Analytical Chemistry",
+    "type": "article",
+    "doi": "https://doi.org/10.1021/acs.analchem.2c04114",
+    "link": "https://doi.org/10.1021/acs.analchem.2c04114",
+    "cited_by_count": 6,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "authors": [
+      "Richard Lauman",
+      "Hee Jong Kim",
+      "Lindsay K. Pino",
+      "Alessandro Scacchetti",
+      "Yixuan Xie",
+      "F. Robison",
+      "Simone Sidoli",
+      "Roberto Bonasio",
+      "Benjamin A. García"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4318919768",
+    "title": "Cross-talk and integrative post-translational modifications",
+    "year": 2023,
+    "venue": "Molecular Omics",
+    "type": "article",
+    "doi": "https://doi.org/10.1039/d2mo90036j",
+    "link": "https://doi.org/10.1039/d2mo90036j",
+    "cited_by_count": 1,
+    "counts_by_year": [
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "authors": [
+      "Si Wu",
+      "Lindsay K. Pino"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4210971041",
+    "title": "Optimization of a processing and analysis workflow for proteome-wide structural biology",
+    "year": 2022,
+    "venue": "Biophysical Journal",
+    "type": "article",
+    "doi": "https://doi.org/10.1016/j.bpj.2021.11.1145",
+    "link": "https://doi.org/10.1016/j.bpj.2021.11.1145",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Raquel L. Shortt",
+      "Lisa M. Jones",
+      "Lindsay K. Pino"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4297458491",
+    "title": "A bright future for proteomics of health and disease. Introduction to the US HUPO 2021 themed issue – proteomics from single cell to systems biology in health and disease",
+    "year": 2022,
+    "venue": "Molecular Omics",
+    "type": "article",
+    "doi": "https://doi.org/10.1039/d2mo90026b",
+    "link": "https://doi.org/10.1039/d2mo90026b",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Lindsay K. Pino",
+      "Reema Banarjee",
+      "Nathan Basisty"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3138298183",
+    "title": "Improved SILAC Quantification with Data-Independent Acquisition to Investigate Bortezomib-Induced Protein Degradation",
+    "year": 2021,
+    "venue": "Journal of Proteome Research",
+    "type": "article",
+    "doi": "https://doi.org/10.1021/acs.jproteome.0c00938",
+    "link": "https://doi.org/10.1021/acs.jproteome.0c00938",
+    "cited_by_count": 70,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 2
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Josue Baeza",
+      "Richard Lauman",
+      "Birgit Schilling",
+      "Benjamin A. García"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3158693388",
+    "title": "Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Genome biology",
+    "type": "article",
+    "doi": "https://doi.org/10.1186/s13059-021-02360-9",
+    "link": "https://doi.org/10.1186/s13059-021-02360-9",
+    "cited_by_count": 32,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 3
+      }
+    ],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. García",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3198882974",
+    "title": "Proximity labeling and other novel mass spectrometric approaches for spatiotemporal protein dynamics",
+    "year": 2021,
+    "venue": "Expert Review of Proteomics",
+    "type": "article",
+    "doi": "https://doi.org/10.1080/14789450.2021.1976149",
+    "link": "https://doi.org/10.1080/14789450.2021.1976149",
+    "cited_by_count": 10,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 4
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Birgit Schilling"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394146201",
+    "title": "Additional file 8 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14538999",
+    "link": "https://doi.org/10.6084/m9.figshare.14538999",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. García",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394184689",
+    "title": "Additional file 7 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14538996",
+    "link": "https://doi.org/10.6084/m9.figshare.14538996",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. García",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394189098",
+    "title": "Additional file 6 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14538993",
+    "link": "https://doi.org/10.6084/m9.figshare.14538993",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. Garcia",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394249858",
+    "title": "Additional file 4 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14538987",
+    "link": "https://doi.org/10.6084/m9.figshare.14538987",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. García",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394298625",
+    "title": "Additional file 9 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14539002",
+    "link": "https://doi.org/10.6084/m9.figshare.14539002",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. Garcia",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394312350",
+    "title": "Additional file 2 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14538981",
+    "link": "https://doi.org/10.6084/m9.figshare.14538981",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. Garcia",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394324966",
+    "title": "Additional file 3 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14538984",
+    "link": "https://doi.org/10.6084/m9.figshare.14538984",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. García",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W4394387252",
+    "title": "Additional file 5 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium",
+    "year": 2021,
+    "venue": "Figshare",
+    "type": "dataset",
+    "doi": "https://doi.org/10.6084/m9.figshare.14538990",
+    "link": "https://doi.org/10.6084/m9.figshare.14538990",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Simon Yuan Wang",
+      "Elizabeth A. Pollina",
+      "I‐Hao Wang",
+      "Lindsay K. Pino",
+      "Henry L. Bushnell",
+      "Ken Takashima",
+      "Colette Fritsche",
+      "George Sabin",
+      "Benjamin A. García",
+      "Paul L. Greer",
+      "Eric Lieberman Greer"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3016694036",
+    "title": "Acquiring and Analyzing Data Independent Acquisition Proteomics Experiments without Spectrum Libraries",
+    "year": 2020,
+    "venue": "Molecular & Cellular Proteomics",
+    "type": "article",
+    "doi": "https://doi.org/10.1074/mcp.p119.001913",
+    "link": "https://doi.org/10.1074/mcp.p119.001913",
+    "cited_by_count": 320,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 23
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 74
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 65
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 69
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 50
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 30
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 9
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Seth Just",
+      "Michael J. MacCoss",
+      "Brian C. Searle"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3041326647",
+    "title": "Late-life restoration of mitochondrial function reverses cardiac dysfunction in old mice",
+    "year": 2020,
+    "venue": "eLife",
+    "type": "article",
+    "doi": "https://doi.org/10.7554/elife.55513",
+    "link": "https://doi.org/10.7554/elife.55513",
+    "cited_by_count": 131,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 23
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 10
+      }
+    ],
+    "authors": [
+      "Ying Ann Chiao",
+      "Huiliang Zhang",
+      "Mariya T. Sweetwyne",
+      "Jeremy Whitson",
+      "Ying S. Ting",
+      "Nathan Basisty",
+      "Lindsay K. Pino",
+      "Ellen Quarles",
+      "Ngoc-Han Nguyen",
+      "Matthew D. Campbell",
+      "Tong Zhang",
+      "Matthew Gaffrey",
+      "Gennifer E. Merrihew",
+      "Lu Wang",
+      "Yongping Yue",
+      "Dongsheng Duan",
+      "Henk Granzier",
+      "Hazel H. Szeto",
+      "Weijun Qian",
+      "David J. Marcinek",
+      "Michael J. MacCoss",
+      "Peter S. Rabinovitch"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3006224151",
+    "title": "Matrix-Matched Calibration Curves for Assessing Analytical Figures of Merit in Quantitative Proteomics",
+    "year": 2020,
+    "venue": "Journal of Proteome Research",
+    "type": "article",
+    "doi": "https://doi.org/10.1021/acs.jproteome.9b00666",
+    "link": "https://doi.org/10.1021/acs.jproteome.9b00666",
+    "cited_by_count": 80,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 20
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 6
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Brian C. Searle",
+      "Han-Yin Yang",
+      "Andrew N. Hoofnagle",
+      "William Stafford Noble",
+      "Michael J. MacCoss"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3007553994",
+    "title": "Highly Parallel Quantification and Compartment Localization of Transcription Factors and Nuclear Proteins",
+    "year": 2020,
+    "venue": "Cell Reports",
+    "type": "article",
+    "doi": "https://doi.org/10.1016/j.celrep.2020.01.096",
+    "link": "https://doi.org/10.1016/j.celrep.2020.01.096",
+    "cited_by_count": 44,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 5
+      }
+    ],
+    "authors": [
+      "Alexander Federation",
+      "Vivek Nandakumar",
+      "Brian C. Searle",
+      "Andrew B. Stergachis",
+      "Hao Wang",
+      "Lindsay K. Pino",
+      "Gennifer E. Merrihew",
+      "Ying S. Ting",
+      "Nicholas P. Howard",
+      "Tanya Kutyavin",
+      "Michael J. MacCoss",
+      "J Stamatoyannopoulos"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W3093062675",
+    "title": "Emerging mass spectrometry-based proteomics methodologies for novel biomedical applications",
+    "year": 2020,
+    "venue": "Biochemical Society Transactions",
+    "type": "article",
+    "doi": "https://doi.org/10.1042/bst20191091",
+    "link": "https://doi.org/10.1042/bst20191091",
+    "cited_by_count": 38,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 2
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Jacob Rose",
+      "Amy O’Broin",
+      "Samah Shah",
+      "Birgit Schilling"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2952984704",
+    "title": "2018 YPIC Challenge: A Case Study in Characterizing an Unknown Protein Sample",
+    "year": 2019,
+    "venue": "Journal of Proteome Research",
+    "type": "article",
+    "doi": "https://doi.org/10.1021/acs.jproteome.9b00384",
+    "link": "https://doi.org/10.1021/acs.jproteome.9b00384",
+    "cited_by_count": 7,
+    "counts_by_year": [
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 2
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Andy Lin",
+      "Wout Bittremieux"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2980469782",
+    "title": "Team COUNCIL OF RICKS submission for EUPA YPIC 2017",
+    "year": 2019,
+    "venue": "EuPA Open Proteomics",
+    "type": "article",
+    "doi": "https://doi.org/10.1016/j.euprot.2019.07.009",
+    "link": "https://doi.org/10.1016/j.euprot.2019.07.009",
+    "cited_by_count": 0,
+    "counts_by_year": [],
+    "authors": [
+      "Lindsay K. Pino",
+      "Brian C. Searle",
+      "Han-Yin Yang"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2903074009",
+    "title": "Chromatogram libraries improve peptide detection and quantification by data independent acquisition mass spectrometry",
+    "year": 2018,
+    "venue": "Nature Communications",
+    "type": "article",
+    "doi": "https://doi.org/10.1038/s41467-018-07454-w",
+    "link": "https://doi.org/10.1038/s41467-018-07454-w",
+    "cited_by_count": 589,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 40
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 99
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 109
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 88
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 93
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 72
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 57
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 27
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 4
+      }
+    ],
+    "authors": [
+      "Brian C. Searle",
+      "Lindsay K. Pino",
+      "Jarrett D. Egertson",
+      "Ying S. Ting",
+      "Robert Lawrence",
+      "Brendan MacLean",
+      "Judit Villén",
+      "Michael J. MacCoss"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2896459652",
+    "title": "Calibration Using a Single-Point External Reference Material Harmonizes Quantitative Mass Spectrometry Proteomics Data between Platforms and Laboratories",
+    "year": 2018,
+    "venue": "Analytical Chemistry",
+    "type": "article",
+    "doi": "https://doi.org/10.1021/acs.analchem.8b04581",
+    "link": "https://doi.org/10.1021/acs.analchem.8b04581",
+    "cited_by_count": 37,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 7
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Brian C. Searle",
+      "Eric Huang",
+      "William Stafford Noble",
+      "Andrew N. Hoofnagle",
+      "Michael J. MacCoss"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2794253611",
+    "title": "Nonlinear Regression Improves Accuracy of Characterization of Multiplexed Mass Spectrometric Assays",
+    "year": 2018,
+    "venue": "Molecular & Cellular Proteomics",
+    "type": "article",
+    "doi": "https://doi.org/10.1074/mcp.ra117.000322",
+    "link": "https://doi.org/10.1074/mcp.ra117.000322",
+    "cited_by_count": 26,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 1
+      }
+    ],
+    "authors": [
+      "Cyril Galitzine",
+      "Jarrett D. Egertson",
+      "Susan E. Abbatiello",
+      "Clark M. Henderson",
+      "Lindsay K. Pino",
+      "Michael J. MacCoss",
+      "Andrew N. Hoofnagle",
+      "Olga Vitek"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2807897000",
+    "title": "Quantification of nuclear protein dynamics reveals chromatin remodeling during acute protein degradation",
+    "year": 2018,
+    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "type": "preprint",
+    "doi": "https://doi.org/10.1101/345686",
+    "link": "https://doi.org/10.1101/345686",
+    "cited_by_count": 3,
+    "counts_by_year": [
+      {
+        "year": 2020,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 2
+      }
+    ],
+    "authors": [
+      "Alexander Federation",
+      "Vivek Nandakumar",
+      "Hao Wang",
+      "Brian C. Searle",
+      "Lindsay K. Pino",
+      "Gennifer E. Merrihew",
+      "Ying S. Ting",
+      "Nicholas P. Howard",
+      "Tanya Kutyavin",
+      "Michael J. MacCoss",
+      "J Stamatoyannopoulos"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2730255373",
+    "title": "The Skyline ecosystem: Informatics for quantitative mass spectrometry proteomics",
+    "year": 2017,
+    "venue": "Mass Spectrometry Reviews",
+    "type": "article",
+    "doi": "https://doi.org/10.1002/mas.21540",
+    "link": "https://doi.org/10.1002/mas.21540",
+    "cited_by_count": 890,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 153
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 165
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 151
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 116
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 116
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 79
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 23
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 18
+      }
+    ],
+    "authors": [
+      "Lindsay K. Pino",
+      "Brian C. Searle",
+      "James G. Bollinger",
+      "Brook L. Nunn",
+      "Brendan MacLean",
+      "Michael J. MacCoss"
+    ]
+  },
+  {
+    "id": "https://openalex.org/W2285216336",
+    "title": "Reduced-representation Phosphosignatures Measured by Quantitative Targeted MS Capture Cellular States and Enable Large-scale Comparison of Drug-induced Phenotypes",
+    "year": 2016,
+    "venue": "Molecular & Cellular Proteomics",
+    "type": "article",
+    "doi": "https://doi.org/10.1074/mcp.m116.058354",
+    "link": "https://doi.org/10.1074/mcp.m116.058354",
+    "cited_by_count": 103,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 14
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2016,
+        "cited_by_count": 7
+      }
+    ],
+    "authors": [
+      "Jennifer G. Abelin",
+      "Jinal Patel",
+      "Xiaodong Lü",
+      "Caitlin M. Feeney",
+      "Lọla Fagbami",
+      "Amanda L. Creech",
+      "Roger Hu",
+      "Daniel D. Lam",
+      "Desiree Davison",
+      "Lindsay K. Pino",
+      "Jana Qiao",
+      "Eric Kuhn",
+      "Adam Officer",
+      "Jianxue Li",
+      "Susan E. Abbatiello",
+      "Aravind Subramanian",
+      "Richard L. Sidman",
+      "Evan Snyder",
+      "Steven A. Carr",
+      "Jacob D. Jaffe"
+    ]
+  }
+]
