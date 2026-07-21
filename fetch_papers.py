@@ -25,7 +25,7 @@ ORCID = sys.argv[1] if len(sys.argv) > 1 else "0000-0003-1857-7222"
 
 # --- Curation choices (Lindsay, 2026-07-21), applied on every re-run ---
 # Work types to drop entirely.
-DROP_TYPES = {"conference-abstract", "peer-review"}
+DROP_TYPES = {"conference-abstract", "peer-review", "dataset"}
 # Keep preprints, BUT drop any preprint that is a duplicate of a published
 # article (same paper). Matched by normalized title exact match or high
 # similarity, plus a manual list for near-matches below the threshold.

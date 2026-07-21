@@ -13,7 +13,8 @@ noting what we learn at each step, so the whole thing can be re-run later.
 - [x] Check the list is really mine; curate (see decisions below)
 - [x] Design the page (interview) — decisions below
 - [x] Build index.html (via build_page.py — regenerates from papers.json)
-- [ ] Refine the look
+- [x] Refine the look — dropped datasets (0 citations, no effect on stats);
+      kept articles + preprints. Name stays "Lindsay Pino", no intro line.
 - [ ] Publish live with GitHub Pages
 - [ ] Mark complete
 
