@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lindsay Pino — Publications</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:#0C015B; --teal:#36C8C8; --teal-deep:#1FA6A6; --gray:#E9E7E8;
+    --bg:#ffffff; --fg:#0C015B; --muted:#5b5b7a; --card:#f5f4f6;
+    --line:#E9E7E8; --accent:var(--teal-deep); --bar:var(--teal);
+  }
+  html[data-theme="dark"] {
+    --bg:#0a0430; --fg:#eceaf7; --muted:#a9a6c6; --card:#171048;
+    --line:#2a2270; --accent:var(--teal); --bar:var(--teal);
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; font-family:'Rethink Sans',system-ui,sans-serif;
+    background:var(--bg); color:var(--fg); line-height:1.5;
+    transition:background .2s,color .2s;
+  }
+  .wrap { max-width:860px; margin:0 auto; padding:48px 24px 80px; }
+  header { display:flex; justify-content:space-between; align-items:flex-start; gap:16px; }
+  h1 { font-size:38px; font-weight:800; letter-spacing:-.02em; margin:0; }
+  .role { font-size:18px; color:var(--accent); font-weight:500; margin:6px 0 0; }
+  .orcid { font-size:13px; margin:10px 0 0; }
+  .orcid a { color:var(--muted); text-decoration:none; font-family:'JetBrains Mono',monospace; }
+  .orcid a:hover { color:var(--accent); }
+  .toggle {
+    flex:none; border:1px solid var(--line); background:var(--card); color:var(--fg);
+    border-radius:999px; padding:8px 14px; font-family:inherit; font-size:13px;
+    font-weight:600; cursor:pointer;
+  }
+  .toggle:hover { border-color:var(--accent); }
+  .stats { display:flex; gap:16px; margin:36px 0 12px; flex-wrap:wrap; }
+  .stat { flex:1; min-width:150px; background:var(--card); border:1px solid var(--line);
+    border-radius:14px; padding:22px 20px; }
+  .stat .num { font-size:40px; font-weight:800; line-height:1; letter-spacing:-.02em;
+    color:var(--accent); }
+  .stat .lbl { font-size:13px; color:var(--muted); margin-top:8px; text-transform:uppercase;
+    letter-spacing:.04em; font-weight:600; }
+  .chart-card { background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:22px 20px 12px; margin:20px 0 8px; }
+  .chart-card h2 { font-size:16px; margin:0 0 8px; font-weight:700; }
+  .chart-card .note { font-size:12px; color:var(--muted); margin:0 0 8px; }
+  .chart { width:100%; height:auto; }
+  .chart .bar { fill:var(--bar); }
+  .chart .bar.partial { fill:var(--bar); opacity:.45; }
+  .chart .barval { fill:var(--muted); font-size:10px; text-anchor:middle;
+    font-family:'JetBrains Mono',monospace; }
+  .chart .axlbl { fill:var(--muted); font-size:11px; text-anchor:middle;
+    font-family:'JetBrains Mono',monospace; }
+  .chart .grid { stroke:var(--line); stroke-width:1; }
+  .pub-section { margin-top:40px; }
+  .pub-section h3 { font-size:20px; font-weight:700; border-bottom:2px solid var(--accent);
+    padding-bottom:8px; display:flex; align-items:center; gap:10px; }
+  .pub-section h3 .count { font-size:13px; color:var(--muted); font-weight:600;
+    background:var(--card); border-radius:999px; padding:2px 10px; }
+  .paper-list { list-style:none; padding:0; margin:0; }
+  .paper { padding:16px 0; border-bottom:1px solid var(--line); }
+  .paper-title { font-size:16px; font-weight:600; }
+  .paper-title a { color:var(--fg); text-decoration:none; }
+  .paper-title a:hover { color:var(--accent); text-decoration:underline; }
+  .paper-meta { font-size:13.5px; color:var(--muted); margin-top:5px; display:flex;
+    align-items:center; gap:8px; flex-wrap:wrap; }
+  .paper-meta .venue { font-style:italic; }
+  .paper-meta .dot { opacity:.5; }
+  .cite-pill { margin-left:auto; background:var(--card); border:1px solid var(--line);
+    border-radius:999px; padding:2px 10px; font-size:12px; font-weight:600;
+    color:var(--accent); font-family:'JetBrains Mono',monospace; }
+  footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line);
+    font-size:12px; color:var(--muted); font-family:'JetBrains Mono',monospace;
+    display:flex; gap:8px; flex-wrap:wrap; }
+  footer .dot { opacity:.5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Lindsay Pino</h1>
+      <p class="role">CTO &amp; co-founder, Talus Bio</p>
+      <p class="orcid"><a href="https://orcid.org/0000-0003-1857-7222" target="_blank" rel="noopener">ORCID 0000-0003-1857-7222</a></p>
+    </div>
+    <button class="toggle" id="themeToggle" aria-label="Toggle dark mode">🌙 Dark</button>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><div class="num">2,492</div><div class="lbl">Total citations</div></div>
+    <div class="stat"><div class="num">13</div><div class="lbl">h-index</div></div>
+    <div class="stat"><div class="num">11</div><div class="lbl">Years active · 2016–2026</div></div>
+  </div>
+
+  <div class="chart-card">
+    <h2>Citations per year</h2>
+    <p class="note">Aggregated across all works via OpenAlex. Latest year is partial (year in progress).</p>
+    <svg viewBox="0 0 720 300" class="chart" role="img" aria-label="Citations per year, 2016 to 2026"><line class="grid" x1="44" y1="266.0" x2="704" y2="266.0"/><text class="axlbl" x="36" y="270.0" text-anchor="end">0</text><line class="grid" x1="44" y1="141.0" x2="704" y2="141.0"/><text class="axlbl" x="36" y="145.0" text-anchor="end">227</text><line class="grid" x1="44" y1="16.0" x2="704" y2="16.0"/><text class="axlbl" x="36" y="20.0" text-anchor="end">455</text><rect class="bar" x="44.0" y="262.2" width="50.9" height="3.8" rx="3"><title>2016: 7 citations</title></rect><text class="barval" x="69.5" y="257.2">7</text><rect class="bar" x="104.9" y="255.6" width="50.9" height="10.4" rx="3"><title>2017: 19 citations</title></rect><text class="barval" x="130.4" y="250.6">19</text><rect class="bar" x="165.8" y="246.2" width="50.9" height="19.8" rx="3"><title>2018: 36 citations</title></rect><text class="barval" x="191.3" y="241.2">36</text><rect class="bar" x="226.7" y="223.1" width="50.9" height="42.9" rx="3"><title>2019: 78 citations</title></rect><text class="barval" x="252.2" y="218.1">78</text><rect class="bar" x="287.6" y="161.1" width="50.9" height="104.9" rx="3"><title>2020: 191 citations</title></rect><text class="barval" x="313.1" y="156.1">191</text><rect class="bar" x="348.5" y="108.9" width="50.9" height="157.1" rx="3"><title>2021: 286 citations</title></rect><text class="barval" x="374.0" y="103.9">286</text><rect class="bar" x="409.5" y="79.2" width="50.9" height="186.8" rx="3"><title>2022: 340 citations</title></rect><text class="barval" x="434.9" y="74.2">340</text><rect class="bar" x="470.4" y="25.3" width="50.9" height="240.7" rx="3"><title>2023: 438 citations</title></rect><text class="barval" x="495.8" y="20.3">438</text><rect class="bar" x="531.3" y="20.4" width="50.9" height="245.6" rx="3"><title>2024: 447 citations</title></rect><text class="barval" x="556.7" y="15.4">447</text><rect class="bar" x="592.2" y="16.0" width="50.9" height="250.0" rx="3"><title>2025: 455 citations</title></rect><text class="barval" x="617.6" y="11.0">455</text><rect class="bar partial" x="653.1" y="160.0" width="50.9" height="106.0" rx="3"><title>2026: 193 citations (partial year)</title></rect><text class="barval" x="678.5" y="155.0">193</text><text class="axlbl" x="69.5" y="284.0">16</text><text class="axlbl" x="130.4" y="284.0">17</text><text class="axlbl" x="191.3" y="284.0">18</text><text class="axlbl" x="252.2" y="284.0">19</text><text class="axlbl" x="313.1" y="284.0">20</text><text class="axlbl" x="374.0" y="284.0">21</text><text class="axlbl" x="434.9" y="284.0">22</text><text class="axlbl" x="495.8" y="284.0">23</text><text class="axlbl" x="556.7" y="284.0">24</text><text class="axlbl" x="617.6" y="284.0">25</text><text class="axlbl" x="678.5" y="284.0">26</text></svg>
+  </div>
+
+  <section class="pub-section"><h3>Articles <span class="count">25</span></h3><ul class="paper-list"><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1016/j.cell.2025.05.023" target="_blank" rel="noopener">Neuropeptides specify and reprogram division of labor in the leafcutter ant Atta cephalotes</a></div><div class="paper-meta"><span class="venue">Cell</span><span class="dot">·</span><span>2025</span><span class="cite-pill">13 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1093/bioadv/vbaf301" target="_blank" rel="noopener">Perspectives in computational mass spectrometry: recent developments and key challenges</a></div><div class="paper-meta"><span class="venue">Bioinformatics Advances</span><span class="dot">·</span><span>2024</span><span class="cite-pill">4 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1021/jasms.4c00196" target="_blank" rel="noopener">Covalent Labeling Automated Data Analysis Platform for High Throughput in R (coADAPTr): A Proteome-Wide Data Analysis Platform for Covalent Labeling Experiments</a></div><div class="paper-meta"><span class="venue">Journal of the American Society for Mass Spectrometry</span><span class="dot">·</span><span>2024</span><span class="cite-pill">1 citation</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1002/jms.5028" target="_blank" rel="noopener">The future role of mass spectrometry in proteomics: Embracing new technologies and building bridges for higher impact</a></div><div class="paper-meta"><span class="venue">Journal of Mass Spectrometry</span><span class="dot">·</span><span>2024</span><span class="cite-pill">1 citation</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1016/j.cmet.2022.12.004" target="_blank" rel="noopener">Profiling mouse brown and white adipocytes to identify metabolically relevant small ORFs and functional microproteins</a></div><div class="paper-meta"><span class="venue">Cell Metabolism</span><span class="dot">·</span><span>2023</span><span class="cite-pill">78 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1021/acs.jproteome.2c00613" target="_blank" rel="noopener">nf-encyclopedia: A Cloud-Ready Pipeline for Chromatogram Library Data-Independent Acquisition Proteomics Workflows</a></div><div class="paper-meta"><span class="venue">Journal of Proteome Research</span><span class="dot">·</span><span>2023</span><span class="cite-pill">6 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1021/acs.analchem.2c04114" target="_blank" rel="noopener">Expanding the Epitranscriptomic RNA Sequencing and Modification Mapping Mass Spectrometry Toolbox with Field Asymmetric Waveform Ion Mobility and Electrochemical Elution Liquid Chromatography</a></div><div class="paper-meta"><span class="venue">Analytical Chemistry</span><span class="dot">·</span><span>2023</span><span class="cite-pill">6 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1039/d2mo90036j" target="_blank" rel="noopener">Cross-talk and integrative post-translational modifications</a></div><div class="paper-meta"><span class="venue">Molecular Omics</span><span class="dot">·</span><span>2023</span><span class="cite-pill">1 citation</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1016/j.bpj.2021.11.1145" target="_blank" rel="noopener">Optimization of a processing and analysis workflow for proteome-wide structural biology</a></div><div class="paper-meta"><span class="venue">Biophysical Journal</span><span class="dot">·</span><span>2022</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1039/d2mo90026b" target="_blank" rel="noopener">A bright future for proteomics of health and disease. Introduction to the US HUPO 2021 themed issue – proteomics from single cell to systems biology in health and disease</a></div><div class="paper-meta"><span class="venue">Molecular Omics</span><span class="dot">·</span><span>2022</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1021/acs.jproteome.0c00938" target="_blank" rel="noopener">Improved SILAC Quantification with Data-Independent Acquisition to Investigate Bortezomib-Induced Protein Degradation</a></div><div class="paper-meta"><span class="venue">Journal of Proteome Research</span><span class="dot">·</span><span>2021</span><span class="cite-pill">70 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1186/s13059-021-02360-9" target="_blank" rel="noopener">Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Genome biology</span><span class="dot">·</span><span>2021</span><span class="cite-pill">32 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1080/14789450.2021.1976149" target="_blank" rel="noopener">Proximity labeling and other novel mass spectrometric approaches for spatiotemporal protein dynamics</a></div><div class="paper-meta"><span class="venue">Expert Review of Proteomics</span><span class="dot">·</span><span>2021</span><span class="cite-pill">10 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1074/mcp.p119.001913" target="_blank" rel="noopener">Acquiring and Analyzing Data Independent Acquisition Proteomics Experiments without Spectrum Libraries</a></div><div class="paper-meta"><span class="venue">Molecular &amp; Cellular Proteomics</span><span class="dot">·</span><span>2020</span><span class="cite-pill">320 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.7554/elife.55513" target="_blank" rel="noopener">Late-life restoration of mitochondrial function reverses cardiac dysfunction in old mice</a></div><div class="paper-meta"><span class="venue">eLife</span><span class="dot">·</span><span>2020</span><span class="cite-pill">131 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1021/acs.jproteome.9b00666" target="_blank" rel="noopener">Matrix-Matched Calibration Curves for Assessing Analytical Figures of Merit in Quantitative Proteomics</a></div><div class="paper-meta"><span class="venue">Journal of Proteome Research</span><span class="dot">·</span><span>2020</span><span class="cite-pill">80 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1016/j.celrep.2020.01.096" target="_blank" rel="noopener">Highly Parallel Quantification and Compartment Localization of Transcription Factors and Nuclear Proteins</a></div><div class="paper-meta"><span class="venue">Cell Reports</span><span class="dot">·</span><span>2020</span><span class="cite-pill">44 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1042/bst20191091" target="_blank" rel="noopener">Emerging mass spectrometry-based proteomics methodologies for novel biomedical applications</a></div><div class="paper-meta"><span class="venue">Biochemical Society Transactions</span><span class="dot">·</span><span>2020</span><span class="cite-pill">38 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1021/acs.jproteome.9b00384" target="_blank" rel="noopener">2018 YPIC Challenge: A Case Study in Characterizing an Unknown Protein Sample</a></div><div class="paper-meta"><span class="venue">Journal of Proteome Research</span><span class="dot">·</span><span>2019</span><span class="cite-pill">7 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1016/j.euprot.2019.07.009" target="_blank" rel="noopener">Team COUNCIL OF RICKS submission for EUPA YPIC 2017</a></div><div class="paper-meta"><span class="venue">EuPA Open Proteomics</span><span class="dot">·</span><span>2019</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1038/s41467-018-07454-w" target="_blank" rel="noopener">Chromatogram libraries improve peptide detection and quantification by data independent acquisition mass spectrometry</a></div><div class="paper-meta"><span class="venue">Nature Communications</span><span class="dot">·</span><span>2018</span><span class="cite-pill">589 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1021/acs.analchem.8b04581" target="_blank" rel="noopener">Calibration Using a Single-Point External Reference Material Harmonizes Quantitative Mass Spectrometry Proteomics Data between Platforms and Laboratories</a></div><div class="paper-meta"><span class="venue">Analytical Chemistry</span><span class="dot">·</span><span>2018</span><span class="cite-pill">37 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1074/mcp.ra117.000322" target="_blank" rel="noopener">Nonlinear Regression Improves Accuracy of Characterization of Multiplexed Mass Spectrometric Assays</a></div><div class="paper-meta"><span class="venue">Molecular &amp; Cellular Proteomics</span><span class="dot">·</span><span>2018</span><span class="cite-pill">26 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1002/mas.21540" target="_blank" rel="noopener">The Skyline ecosystem: Informatics for quantitative mass spectrometry proteomics</a></div><div class="paper-meta"><span class="venue">Mass Spectrometry Reviews</span><span class="dot">·</span><span>2017</span><span class="cite-pill">890 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1074/mcp.m116.058354" target="_blank" rel="noopener">Reduced-representation Phosphosignatures Measured by Quantitative Targeted MS Capture Cellular States and Enable Large-scale Comparison of Drug-induced Phenotypes</a></div><div class="paper-meta"><span class="venue">Molecular &amp; Cellular Proteomics</span><span class="dot">·</span><span>2016</span><span class="cite-pill">103 citations</span></div></li></ul></section><section class="pub-section"><h3>Preprints <span class="count">4</span></h3><ul class="paper-list"><li class="paper"><div class="paper-title"><a href="https://doi.org/10.64898/2026.03.27.714846" target="_blank" rel="noopener">Carafe2 enables high quality <i>in silico</i> spectral library generation for timsTOF data-independent acquisition proteomics</a></div><div class="paper-meta"><span class="venue">bioRxiv (Cold Spring Harbor Laboratory)</span><span class="dot">·</span><span>2026</span><span class="cite-pill">2 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.64898/2026.07.09.737605" target="_blank" rel="noopener">MSstatsBioNet: Integrating Statistical Analyses with Prior Knowledge Biomolecular Networks for Quantitative Proteomics and Phosphoproteomics</a></div><div class="paper-meta"><span class="venue">bioRxiv (Cold Spring Harbor Laboratory)</span><span class="dot">·</span><span>2026</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1101/2025.06.14.659727" target="_blank" rel="noopener">Native, Spatiotemporal Profiling of the Global Human Regulome</a></div><div class="paper-meta"><span class="venue">bioRxiv (Cold Spring Harbor Laboratory)</span><span class="dot">·</span><span>2025</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.1101/345686" target="_blank" rel="noopener">Quantification of nuclear protein dynamics reveals chromatin remodeling during acute protein degradation</a></div><div class="paper-meta"><span class="venue">bioRxiv (Cold Spring Harbor Laboratory)</span><span class="dot">·</span><span>2018</span><span class="cite-pill">3 citations</span></div></li></ul></section><section class="pub-section"><h3>Datasets <span class="count">8</span></h3><ul class="paper-list"><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14538999" target="_blank" rel="noopener">Additional file 8 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14538996" target="_blank" rel="noopener">Additional file 7 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14538993" target="_blank" rel="noopener">Additional file 6 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14538987" target="_blank" rel="noopener">Additional file 4 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14539002" target="_blank" rel="noopener">Additional file 9 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14538981" target="_blank" rel="noopener">Additional file 2 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14538984" target="_blank" rel="noopener">Additional file 3 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li><li class="paper"><div class="paper-title"><a href="https://doi.org/10.6084/m9.figshare.14538990" target="_blank" rel="noopener">Additional file 5 of Role of epigenetics in unicellular to multicellular transition in Dictyostelium</a></div><div class="paper-meta"><span class="venue">Figshare</span><span class="dot">·</span><span>2021</span><span class="cite-pill">0 citations</span></div></li></ul></section>
+
+  <footer>
+    <span>Data: OpenAlex</span><span class="dot">·</span>
+    <span>Generated 2026-07-21</span><span class="dot">·</span>
+    <span>ORCID 0000-0003-1857-7222</span>
+  </footer>
+</div>
+<script>
+  (function () {
+    var btn = document.getElementById('themeToggle');
+    var root = document.documentElement;
+    var saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = saved || (prefersDark ? 'dark' : 'light');
+    apply(theme);
+    btn.addEventListener('click', function () {
+      theme = (root.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+      apply(theme);
+      try { localStorage.setItem('theme', theme); } catch (e) {}
+    });
+    function apply(t) {
+      root.setAttribute('data-theme', t);
+      btn.textContent = (t === 'dark') ? '☀️ Light' : '🌙 Dark';
+    }
+  })();
+</script>
+</body>
+</html>
