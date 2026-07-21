@@ -17,6 +17,23 @@ noting what we learn at each step, so the whole thing can be re-run later.
       kept articles + preprints. Name stays "Lindsay Pino", no intro line.
 - [x] Publish live with GitHub Pages — https://lindsaypino.github.io/MyPublications/
 - [x] Mark complete ✅ (2026-07-21)
+- [x] Combine with Talus team coauthor network (from my-practice-project) —
+      added a "Talus collaboration network" section below the personal page,
+      my node highlighted. Published publicly (approved). (2026-07-21)
+
+## Talus network integration
+- Source: my-practice-project/data/coauthor_network.json (team-wide coauthor
+  graph, built from PubMed + Semantic Scholar). Copied into this repo as
+  coauthor_network.json so the public page is self-contained.
+- build_page.py now inlines the network and renders a force-directed canvas
+  (plain JS, no libs, ported from that repo's dashboard). Theme-aware colors;
+  my node ("Lindsay K Pino") highlighted in purple, labeled "(me)".
+- 794 nodes (12 team + 782 coauthors), 975 edges.
+- Visibility: MyPublications is PUBLIC, so the whole team's network is now
+  public. Approved by Lindsay (she's Talus co-founder; data is from public
+  bibliographic sources). my-practice-project stays private and untouched.
+- To refresh the network: re-run my-practice-project/scripts/update_all.py,
+  copy its coauthor_network.json here, and re-run build_page.py.
 
 ## Design (approved plan for index.html)
 - **Look:** Talus-branded — navy `#0C015B` + teal `#36C8C8`/`#1FA6A6`, Rethink Sans
