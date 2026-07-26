@@ -202,11 +202,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1016/j.cmet.2022.12.004",
     "link": "https://doi.org/10.1016/j.cmet.2022.12.004",
-    "cited_by_count": 78,
+    "cited_by_count": 79,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 12
+        "cited_by_count": 13
       },
       {
         "year": 2025,
@@ -621,11 +621,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1021/acs.jproteome.9b00666",
     "link": "https://doi.org/10.1021/acs.jproteome.9b00666",
-    "cited_by_count": 80,
+    "cited_by_count": 81,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 5
+        "cited_by_count": 6
       },
       {
         "year": 2025,
@@ -819,11 +819,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1038/s41467-018-07454-w",
     "link": "https://doi.org/10.1038/s41467-018-07454-w",
-    "cited_by_count": 589,
+    "cited_by_count": 591,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 40
+        "cited_by_count": 42
       },
       {
         "year": 2025,
@@ -972,39 +972,6 @@
     ]
   },
   {
-    "id": "https://openalex.org/W2807897000",
-    "title": "Quantification of nuclear protein dynamics reveals chromatin remodeling during acute protein degradation",
-    "year": 2018,
-    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
-    "type": "preprint",
-    "doi": "https://doi.org/10.1101/345686",
-    "link": "https://doi.org/10.1101/345686",
-    "cited_by_count": 3,
-    "counts_by_year": [
-      {
-        "year": 2020,
-        "cited_by_count": 1
-      },
-      {
-        "year": 2019,
-        "cited_by_count": 2
-      }
-    ],
-    "authors": [
-      "Alexander Federation",
-      "Vivek Nandakumar",
-      "Hao Wang",
-      "Brian C. Searle",
-      "Lindsay K. Pino",
-      "Gennifer E. Merrihew",
-      "Ying S. Ting",
-      "Nicholas P. Howard",
-      "Tanya Kutyavin",
-      "Michael J. MacCoss",
-      "J Stamatoyannopoulos"
-    ]
-  },
-  {
     "id": "https://openalex.org/W2730255373",
     "title": "The Skyline ecosystem: Informatics for quantitative mass spectrometry proteomics",
     "year": 2017,
@@ -1012,11 +979,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1002/mas.21540",
     "link": "https://doi.org/10.1002/mas.21540",
-    "cited_by_count": 890,
+    "cited_by_count": 892,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 67
+        "cited_by_count": 69
       },
       {
         "year": 2025,
