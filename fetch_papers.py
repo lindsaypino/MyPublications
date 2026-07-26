@@ -34,7 +34,16 @@ FUZZY_THRESHOLD = 0.90
 # Specific works confirmed by hand as duplicates the fuzzy match won't catch.
 # W2793912163 = "Comprehensive peptide quantification..." preprint, same paper
 # as the published "Chromatogram libraries improve peptide detection..." article.
-EXCLUDE_IDS = {"https://openalex.org/W2793912163"}
+# W2807897000 = "Quantification of nuclear protein dynamics reveals chromatin
+# remodeling during acute protein degradation" (bioRxiv 10.1101/345686), same
+# paper as the published "Highly Parallel Quantification and Compartment
+# Localization of Transcription Factors and Nuclear Proteins" (Cell Reports,
+# 10.1016/j.celrep.2020.01.096). The title was rewritten between versions, so
+# similarity is only 0.33 -- far below FUZZY_THRESHOLD.
+EXCLUDE_IDS = {
+    "https://openalex.org/W2793912163",
+    "https://openalex.org/W2807897000",
+}
 
 
 def norm_title(t):
