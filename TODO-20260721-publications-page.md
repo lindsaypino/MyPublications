@@ -143,6 +143,29 @@ now reports both new preprints as "in the record, not in the CV" — a CV decisi
   bibliographic sources). my-practice-project stays private and untouched.
 - To refresh the network: re-run my-practice-project/scripts/update_all.py,
   copy its coauthor_network.json here, and re-run build_page.py.
+- Refreshed 2026-08-06: 833 nodes (12 team + 821 coauthors), 1028 edges, up from
+  794/975. Picks up coauthors from the two recovered preprints.
+- That refresh needed three fixes in my-practice-project first (all committed
+  there separately, not in this repo):
+  1. `lib/pubmed.py` swallowed efetch failures and returned None, which the
+     caller treated as "no affiliations". One transient NCBI hiccup silently
+     relabelled all 153 papers `unverified` and wrote it out as data (the
+     committed dataset had 25 confirmed / 33 unverified / 86 not_talus; the bad
+     run produced 0 / 153 / 0). Now retries with backoff and raises instead.
+  2. Every `open()` in all four scripts lacked an explicit encoding, so on
+     Windows they defaulted to cp1252 and `build_dataset.py` died writing a
+     `β` in a title -- leaving talus_team_publications.csv truncated from 34 KB
+     to 1.3 KB. All 14 opens now specify UTF-8.
+  3. `update_all.py` spawned each step with `subprocess.run([sys.executable, ...])`,
+     and `-X utf8` is a flag, not inherited -- so running it exactly as
+     documented still left every child in cp1252. Now passes `PYTHONUTF8=1`.
+  Good news: build_coauthor_network.py never reads `talus_affiliated` (it only
+  drops >40-author consortium papers), so the published network was never at
+  risk from bug 1 -- that field feeds the dashboard only. Verified before
+  copying anything across.
+- Note the two networks use different name formats: this repo's papers.json
+  comes from OpenAlex/PubMed ("Khan MIH") while the network comes from Semantic
+  Scholar ("M. I. H. Khan"). Don't cross-check them by exact string match.
 
 ## Design (approved plan for index.html)
 - **Look:** Talus-branded — navy `#0C015B` + teal `#36C8C8`/`#1FA6A6`, Rethink Sans

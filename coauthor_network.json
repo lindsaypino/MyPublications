@@ -52,7 +52,7 @@
       "id": "team:Kyle Siebenthall",
       "label": "Kyle Siebenthall",
       "type": "team",
-      "papers": 12
+      "papers": 13
     },
     {
       "id": "coauthor:a uhlemann",
@@ -118,7 +118,7 @@
       "id": "team:Alexander J Federation",
       "label": "Alexander J Federation",
       "type": "team",
-      "papers": 36
+      "papers": 39
     },
     {
       "id": "coauthor:bradley l nilsson",
@@ -352,7 +352,7 @@
       "id": "team:William E Fondrie",
       "label": "William E Fondrie",
       "type": "team",
-      "papers": 32
+      "papers": 33
     },
     {
       "id": "coauthor:d ryan",
@@ -361,8 +361,8 @@
       "papers": 1
     },
     {
-      "id": "coauthor:g papoian",
-      "label": "G. Papoian",
+      "id": "coauthor:garegin a papoian",
+      "label": "Garegin A. Papoian",
       "type": "coauthor",
       "papers": 1
     },
@@ -381,6 +381,12 @@
     {
       "id": "coauthor:j m papanikolas",
       "label": "J. M. Papanikolas",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:a meissner",
+      "label": "A. Meissner",
       "type": "coauthor",
       "papers": 1
     },
@@ -655,12 +661,6 @@
       "papers": 1
     },
     {
-      "id": "coauthor:a meissner",
-      "label": "A. Meissner",
-      "type": "coauthor",
-      "papers": 1
-    },
-    {
       "id": "coauthor:s erkek",
       "label": "S. Erkek",
       "type": "coauthor",
@@ -752,7 +752,7 @@
     },
     {
       "id": "coauthor:david t w jones",
-      "label": "David T. W. Jones",
+      "label": "David. T. W. Jones",
       "type": "coauthor",
       "papers": 2
     },
@@ -976,7 +976,7 @@
       "id": "team:Daniele Canzani",
       "label": "Daniele Canzani",
       "type": "team",
-      "papers": 12
+      "papers": 14
     },
     {
       "id": "coauthor:evangelos pefanis",
@@ -1402,7 +1402,7 @@
       "id": "team:Lindsay K Pino",
       "label": "Lindsay K Pino",
       "type": "team",
-      "papers": 33
+      "papers": 36
     },
     {
       "id": "coauthor:jana w qiao",
@@ -1558,7 +1558,7 @@
       "id": "team:J. Sebastian Paez",
       "label": "J. Sebastian Paez",
       "type": "team",
-      "papers": 15
+      "papers": 18
     },
     {
       "id": "coauthor:yuan zhou",
@@ -1642,7 +1642,7 @@
       "id": "team:Evan E Hubbard",
       "label": "Evan E Hubbard",
       "type": "team",
-      "papers": 10
+      "papers": 11
     },
     {
       "id": "coauthor:jingwei cheng",
@@ -2145,6 +2145,30 @@
     {
       "id": "coauthor:chi y yun",
       "label": "Chi Y. Yun",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:j e bradner",
+      "label": "J. E. Bradner",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:jun qi",
+      "label": "Jun Qi",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:zoe jacobson",
+      "label": "Zoe Jacobson",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:anthony varca",
+      "label": "Anthony Varca",
       "type": "coauthor",
       "papers": 1
     },
@@ -3338,7 +3362,7 @@
     },
     {
       "id": "coauthor:susan e crawford",
-      "label": "Susan E. Crawford",
+      "label": "Susan E Crawford",
       "type": "coauthor",
       "papers": 1
     },
@@ -3448,7 +3472,7 @@
       "id": "team:Lillian Tatka",
       "label": "Lillian Tatka",
       "type": "team",
-      "papers": 5
+      "papers": 6
     },
     {
       "id": "coauthor:lucian p smith",
@@ -3489,6 +3513,42 @@
     {
       "id": "coauthor:lincoln harris",
       "label": "Lincoln Harris",
+      "type": "coauthor",
+      "papers": 2
+    },
+    {
+      "id": "coauthor:rachel e richardson",
+      "label": "Rachel E. Richardson",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:damon t leach",
+      "label": "Damon T. Leach",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:n winans",
+      "label": "N. Winans",
+      "type": "coauthor",
+      "papers": 2
+    },
+    {
+      "id": "coauthor:david j degnan",
+      "label": "David J. Degnan",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "team:Anastasiya Prymolenna",
+      "label": "Anastasiya Prymolenna",
+      "type": "team",
+      "papers": 4
+    },
+    {
+      "id": "coauthor:lisa m bramer",
+      "label": "Lisa M. Bramer",
       "type": "coauthor",
       "papers": 2
     },
@@ -3542,7 +3602,7 @@
     },
     {
       "id": "coauthor:hai m nguyen",
-      "label": "Hai M Nguyen",
+      "label": "Hai M. Nguyen",
       "type": "coauthor",
       "papers": 1
     },
@@ -4024,7 +4084,7 @@
       "id": "team:Andrea Gutierrez",
       "label": "Andrea Gutierrez",
       "type": "team",
-      "papers": 3
+      "papers": 4
     },
     {
       "id": "coauthor:frank szulzewsky",
@@ -4372,13 +4432,13 @@
       "id": "team:Julia Robbins",
       "label": "Julia Robbins",
       "type": "team",
-      "papers": 2
+      "papers": 4
     },
     {
       "id": "team:Brian McEllin",
       "label": "Brian McEllin",
       "type": "team",
-      "papers": 1
+      "papers": 3
     },
     {
       "id": "coauthor:erin broderick",
@@ -4387,16 +4447,10 @@
       "papers": 1
     },
     {
-      "id": "team:Anastasiya Prymolenna",
-      "label": "Anastasiya Prymolenna",
-      "type": "team",
-      "papers": 1
-    },
-    {
       "id": "coauthor:gaelle mercenne",
       "label": "Gaelle Mercenne",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:tierney scarpa",
@@ -4576,59 +4630,95 @@
       "id": "coauthor:elizabeth a thayer",
       "label": "Elizabeth A. Thayer",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:gabriela shipman",
       "label": "Gabriela Shipman",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:joel rivera-cardona",
       "label": "Joel Rivera-Cardona",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:tarun mahajan",
       "label": "Tarun Mahajan",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:q teo",
       "label": "Q. Teo",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:joseph lederer",
       "label": "Joseph Lederer",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:jie chen",
       "label": "Jie Chen",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:nicholas c wu",
       "label": "Nicholas C. Wu",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:sergei maslov",
       "label": "Sergei Maslov",
       "type": "coauthor",
-      "papers": 1
+      "papers": 2
     },
     {
       "id": "coauthor:c brooke",
       "label": "C. Brooke",
+      "type": "coauthor",
+      "papers": 2
+    },
+    {
+      "id": "coauthor:javier e flores",
+      "label": "Javier E. Flores",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:logan a lewis",
+      "label": "Logan A. Lewis",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:elizabeth k eder",
+      "label": "Elizabeth K Eder",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:william r kew",
+      "label": "William R Kew",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:robert p young",
+      "label": "Robert P Young",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:david moebius",
+      "label": "David Moebius",
       "type": "coauthor",
       "papers": 1
     },
@@ -4653,6 +4743,84 @@
     {
       "id": "coauthor:judit vill\u00e9n",
       "label": "Judit Vill\u00e9n",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:maria paula \u00e1vila-guzm\u00e1n",
+      "label": "Maria Paula \u00c1vila-Guzm\u00e1n",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:sergio herrera",
+      "label": "Sergio Herrera",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:j lizarazo-marriaga",
+      "label": "J. Lizarazo-Marriaga",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:miguel rivas",
+      "label": "Miguel Rivas",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:jorge sierra",
+      "label": "Jorge Sierra",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:cristian arias",
+      "label": "Cristian Arias",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:guillermo \u00e1vila",
+      "label": "Guillermo \u00c1vila",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:gabriela bernal",
+      "label": "Gabriela Bernal",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:juan sebasti\u00e1n fl\u00f3rez",
+      "label": "Juan Sebasti\u00e1n Fl\u00f3rez",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:m puentes",
+      "label": "M. Puentes",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:ronald sanchez",
+      "label": "Ronald Sanchez",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:paola quintero",
+      "label": "Paola Quintero",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:d ru\u00edz",
+      "label": "D. Ru\u00edz",
       "type": "coauthor",
       "papers": 1
     },
@@ -4749,6 +4917,72 @@
     {
       "id": "coauthor:b gryder",
       "label": "B. Gryder",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:anthony wu",
+      "label": "Anthony Wu",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:devon kohler",
+      "label": "Devon Kohler",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:pruthvi prakash navada",
+      "label": "Pruthvi Prakash Navada",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:gabriel e boyle",
+      "label": "Gabriel E. Boyle",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:a boshart",
+      "label": "A. Boshart",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:klas karis",
+      "label": "Klas Karis",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:j neefjes",
+      "label": "J. Neefjes",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:a konvalinka",
+      "label": "A. Konvalinka",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:j sarthy",
+      "label": "J. Sarthy",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:b gyori",
+      "label": "B. Gyori",
+      "type": "coauthor",
+      "papers": 1
+    },
+    {
+      "id": "coauthor:olga vitek",
+      "label": "Olga Vitek",
       "type": "coauthor",
       "papers": 1
     },
@@ -5052,7 +5286,7 @@
       "weight": 1
     },
     {
-      "source": "coauthor:g papoian",
+      "source": "coauthor:garegin a papoian",
       "target": "team:William E Fondrie",
       "weight": 1
     },
@@ -5069,6 +5303,11 @@
     {
       "source": "coauthor:j m papanikolas",
       "target": "team:William E Fondrie",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:a meissner",
+      "target": "team:Alexander J Federation",
       "weight": 1
     },
     {
@@ -5293,11 +5532,6 @@
     },
     {
       "source": "coauthor:r s pierre",
-      "target": "team:Alexander J Federation",
-      "weight": 1
-    },
-    {
-      "source": "coauthor:a meissner",
       "target": "team:Alexander J Federation",
       "weight": 1
     },
@@ -6522,6 +6756,26 @@
       "weight": 1
     },
     {
+      "source": "coauthor:j e bradner",
+      "target": "team:Alexander J Federation",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:jun qi",
+      "target": "team:Alexander J Federation",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:zoe jacobson",
+      "target": "team:Alexander J Federation",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:anthony varca",
+      "target": "team:Alexander J Federation",
+      "weight": 1
+    },
+    {
       "source": "coauthor:a fan",
       "target": "team:Alexander J Federation",
       "weight": 1
@@ -6569,7 +6823,7 @@
     {
       "source": "team:Alexander J Federation",
       "target": "team:Lindsay K Pino",
-      "weight": 8
+      "weight": 12
     },
     {
       "source": "coauthor:g merrihew",
@@ -7229,7 +7483,7 @@
     {
       "source": "team:Alexander J Federation",
       "target": "team:William E Fondrie",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "coauthor:m maccoss",
@@ -7769,7 +8023,7 @@
     {
       "source": "team:Lindsay K Pino",
       "target": "team:William E Fondrie",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "coauthor:c allen",
@@ -7824,6 +8078,31 @@
     {
       "source": "coauthor:lincoln harris",
       "target": "team:William E Fondrie",
+      "weight": 2
+    },
+    {
+      "source": "coauthor:rachel e richardson",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:damon t leach",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:n winans",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 2
+    },
+    {
+      "source": "coauthor:david j degnan",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:lisa m bramer",
+      "target": "team:Anastasiya Prymolenna",
       "weight": 2
     },
     {
@@ -8284,7 +8563,7 @@
     {
       "source": "team:Alexander J Federation",
       "target": "team:Andrea Gutierrez",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "coauthor:frank szulzewsky",
@@ -8614,27 +8893,27 @@
     {
       "source": "team:Daniele Canzani",
       "target": "team:Lindsay K Pino",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:Lindsay K Pino",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Julia Robbins",
       "target": "team:Lindsay K Pino",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "team:Brian McEllin",
       "target": "team:Lindsay K Pino",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "team:Evan E Hubbard",
       "target": "team:Lindsay K Pino",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -8644,47 +8923,47 @@
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:Lindsay K Pino",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Lillian Tatka",
       "target": "team:Lindsay K Pino",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:J. Sebastian Paez",
       "target": "team:Lindsay K Pino",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "coauthor:gaelle mercenne",
       "target": "team:Lindsay K Pino",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "team:Kyle Siebenthall",
       "target": "team:Lindsay K Pino",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:Daniele Canzani",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Daniele Canzani",
       "target": "team:Julia Robbins",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Brian McEllin",
       "target": "team:Daniele Canzani",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "team:Daniele Canzani",
       "target": "team:Evan E Hubbard",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -8694,52 +8973,52 @@
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:Daniele Canzani",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Daniele Canzani",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Daniele Canzani",
       "target": "team:J. Sebastian Paez",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "coauthor:gaelle mercenne",
       "target": "team:Daniele Canzani",
-      "weight": 1
-    },
-    {
-      "source": "team:Daniele Canzani",
-      "target": "team:Kyle Siebenthall",
       "weight": 2
     },
     {
       "source": "team:Daniele Canzani",
-      "target": "team:William E Fondrie",
+      "target": "team:Kyle Siebenthall",
       "weight": 4
+    },
+    {
+      "source": "team:Daniele Canzani",
+      "target": "team:William E Fondrie",
+      "weight": 6
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:Daniele Canzani",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:Julia Robbins",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:Brian McEllin",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:Evan E Hubbard",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -8749,17 +9028,17 @@
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:Andrea Gutierrez",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:J. Sebastian Paez",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:gaelle mercenne",
@@ -8769,22 +9048,22 @@
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:Kyle Siebenthall",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Andrea Gutierrez",
       "target": "team:William E Fondrie",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Brian McEllin",
       "target": "team:Julia Robbins",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Evan E Hubbard",
       "target": "team:Julia Robbins",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -8794,17 +9073,17 @@
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:Julia Robbins",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Julia Robbins",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:J. Sebastian Paez",
       "target": "team:Julia Robbins",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:gaelle mercenne",
@@ -8814,62 +9093,62 @@
     {
       "source": "team:Julia Robbins",
       "target": "team:Kyle Siebenthall",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Julia Robbins",
       "target": "team:William E Fondrie",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:Julia Robbins",
+      "weight": 6
+    },
+    {
+      "source": "team:Brian McEllin",
+      "target": "team:Evan E Hubbard",
+      "weight": 4
+    },
+    {
+      "source": "coauthor:erin broderick",
+      "target": "team:Brian McEllin",
+      "weight": 1
+    },
+    {
+      "source": "team:Anastasiya Prymolenna",
+      "target": "team:Brian McEllin",
       "weight": 4
     },
     {
       "source": "team:Brian McEllin",
-      "target": "team:Evan E Hubbard",
-      "weight": 2
-    },
-    {
-      "source": "coauthor:erin broderick",
-      "target": "team:Brian McEllin",
-      "weight": 1
-    },
-    {
-      "source": "team:Anastasiya Prymolenna",
-      "target": "team:Brian McEllin",
-      "weight": 2
-    },
-    {
-      "source": "team:Brian McEllin",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Brian McEllin",
       "target": "team:J. Sebastian Paez",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:gaelle mercenne",
       "target": "team:Brian McEllin",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "team:Brian McEllin",
       "target": "team:Kyle Siebenthall",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Brian McEllin",
       "target": "team:William E Fondrie",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:Brian McEllin",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "coauthor:erin broderick",
@@ -8879,17 +9158,17 @@
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:Evan E Hubbard",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Evan E Hubbard",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Evan E Hubbard",
       "target": "team:J. Sebastian Paez",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:gaelle mercenne",
@@ -8899,17 +9178,17 @@
     {
       "source": "team:Evan E Hubbard",
       "target": "team:Kyle Siebenthall",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Evan E Hubbard",
       "target": "team:William E Fondrie",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:Evan E Hubbard",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -8919,12 +9198,12 @@
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:J. Sebastian Paez",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:gaelle mercenne",
@@ -8934,17 +9213,17 @@
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:Kyle Siebenthall",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Anastasiya Prymolenna",
       "target": "team:William E Fondrie",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:Anastasiya Prymolenna",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -8954,7 +9233,7 @@
     {
       "source": "team:J. Sebastian Paez",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:gaelle mercenne",
@@ -8964,17 +9243,17 @@
     {
       "source": "team:Kyle Siebenthall",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Lillian Tatka",
       "target": "team:William E Fondrie",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:Lillian Tatka",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -8989,17 +9268,17 @@
     {
       "source": "team:J. Sebastian Paez",
       "target": "team:Kyle Siebenthall",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:J. Sebastian Paez",
       "target": "team:William E Fondrie",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:J. Sebastian Paez",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -9014,12 +9293,12 @@
     {
       "source": "team:Kyle Siebenthall",
       "target": "team:William E Fondrie",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "team:Alexander J Federation",
       "target": "team:Kyle Siebenthall",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "coauthor:erin broderick",
@@ -9039,7 +9318,7 @@
     {
       "source": "coauthor:gaelle mercenne",
       "target": "team:Alexander J Federation",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:tierney scarpa",
@@ -9194,51 +9473,96 @@
     {
       "source": "coauthor:elizabeth a thayer",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:gabriela shipman",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:joel rivera-cardona",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:tarun mahajan",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:q teo",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:joseph lederer",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:jie chen",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:nicholas c wu",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:sergei maslov",
       "target": "team:J. Sebastian Paez",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "coauthor:c brooke",
       "target": "team:J. Sebastian Paez",
+      "weight": 2
+    },
+    {
+      "source": "coauthor:javier e flores",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:logan a lewis",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:elizabeth k eder",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:william r kew",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:robert p young",
+      "target": "team:Anastasiya Prymolenna",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:david moebius",
+      "target": "team:Brian McEllin",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:david moebius",
+      "target": "team:Daniele Canzani",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:david moebius",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:david moebius",
+      "target": "team:Alexander J Federation",
       "weight": 1
     },
     {
@@ -9392,6 +9716,71 @@
       "weight": 1
     },
     {
+      "source": "coauthor:maria paula \u00e1vila-guzm\u00e1n",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:sergio herrera",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:j lizarazo-marriaga",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:miguel rivas",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:jorge sierra",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:cristian arias",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:guillermo \u00e1vila",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:gabriela bernal",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:juan sebasti\u00e1n fl\u00f3rez",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:m puentes",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:ronald sanchez",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:paola quintero",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:d ru\u00edz",
+      "target": "team:J. Sebastian Paez",
+      "weight": 1
+    },
+    {
       "source": "coauthor:m i h khan",
       "target": "team:Alexander J Federation",
       "weight": 1
@@ -9629,6 +10018,116 @@
     {
       "source": "coauthor:b gryder",
       "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:anthony wu",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:devon kohler",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:pruthvi prakash navada",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:gabriel e boyle",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:a boshart",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:klas karis",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:j neefjes",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:a konvalinka",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:j sarthy",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:b gyori",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:olga vitek",
+      "target": "team:Julia Robbins",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:anthony wu",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:devon kohler",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:pruthvi prakash navada",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:gabriel e boyle",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:a boshart",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:klas karis",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:j neefjes",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:a konvalinka",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:j sarthy",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:b gyori",
+      "target": "team:Lindsay K Pino",
+      "weight": 1
+    },
+    {
+      "source": "coauthor:olga vitek",
+      "target": "team:Lindsay K Pino",
       "weight": 1
     },
     {
@@ -9644,7 +10143,7 @@
   ],
   "meta": {
     "max_authors_threshold": 40,
-    "papers_excluded_consortium_scale": 5,
+    "papers_excluded_consortium_scale": 6,
     "papers_missing_author_list": 0
   }
 }
