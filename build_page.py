@@ -14,6 +14,7 @@ Re-run after fetch_papers.py to regenerate. Run on Windows with:
 import datetime
 import html
 import json
+import re
 
 NAME = "Lindsay Pino"
 ROLE = "CTO & co-founder, Talus Bio"
@@ -88,17 +89,35 @@ def chart_svg(per_year):
             + "".join(grid) + "".join(bars) + "".join(labels) + "</svg>")
 
 
+MONTHS = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def when(p):
+    """'Dec 2025' where we know the month, bare year where we don't.
+
+    The day is deliberately not shown: where a publisher deposited only a
+    year+month, OpenAlex fills the day with 01, so showing it would invent
+    precision the source does not have.
+    """
+    date = p.get("date") or ""
+    m = re.match(r"^(\d{4})-(\d{2})", date)
+    if m:
+        return f"{MONTHS[int(m.group(2))]} {m.group(1)}"
+    return str(p.get("year") or "")
+
+
 def paper_row(p):
     title = esc(p["title"])
     link = p.get("link") or p.get("id")
     title_html = f'<a href="{html.escape(link)}" target="_blank" rel="noopener">{title}</a>' if link else title
     venue = html.escape(p.get("venue") or "")
-    year = p.get("year") or ""
+    published = when(p)
     cites = p.get("cited_by_count", 0)
     cite_label = f'{cites} citation{"s" if cites != 1 else ""}'
     return (f'<li class="paper"><div class="paper-title">{title_html}</div>'
             f'<div class="paper-meta"><span class="venue">{venue}</span>'
-            f'<span class="dot">·</span><span>{year}</span>'
+            f'<span class="dot">·</span><span>{published}</span>'
             f'<span class="cite-pill">{cite_label}</span></div></li>')
 
 
@@ -514,8 +533,12 @@ def main():
 
     sections = []
     for key, label in TYPE_ORDER:
+        # Reverse chronological by full date. Matches the ordering fetch_papers.py
+        # already applied; kept here so the page is correct even if papers.json
+        # is hand-edited or arrives in another order.
         group = sorted([p for p in papers if p["type"] == key],
-                       key=lambda p: (p["year"] or 0), reverse=True)
+                       key=lambda p: (p.get("date") or f"{p['year'] or 0}-00-00",
+                                      p["title"].lower()), reverse=True)
         if not group:
             continue
         rows = "".join(paper_row(p) for p in group)
