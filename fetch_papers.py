@@ -2,9 +2,10 @@
 
 Saves:
   - papers.json  : full list with the fields the page needs
-                   (title, year, venue, type, doi/link, cited_by_count,
-                    counts_by_year, authors)
-  - papers.csv   : a spreadsheet to skim (title, year, venue, type, co-authors)
+                   (title, date, year, venue, type, doi/link, cited_by_count,
+                    counts_by_year, authors), ordered newest first by full date
+  - papers.csv   : a spreadsheet to skim (title, date, year, venue, type,
+                   co-authors)
 
 Reusable: change ORCID below (or pass as the first CLI arg) and re-run.
 Run on Windows with:  py -X utf8 fetch_papers.py
@@ -45,9 +46,80 @@ EXCLUDE_IDS = {
     "https://openalex.org/W2807897000",
 }
 
+# --- Publication dates OpenAlex gets wrong ---
+# We order the list by full date, so a wrong month matters, not just a wrong
+# year. OpenAlex's publication_date is derived from Crossref and inherits
+# publisher metadata errors. Each override is an ISO date verified against
+# Crossref published-online AND PubMed's e-pub date; check_dates.py re-runs the
+# whole comparison. Policy: the date is when the paper FIRST APPEARED (online
+# ahead of print), which is what readers and citations track.
+DATE_OVERRIDES = {
+    "10.1093/bioadv/vbaf301": ("2025-12-17",
+        "Bioinformatics Advances vol 5(1). Crossref carries a bad "
+        "published-print of 2024-12-26 from OUP, which is what OpenAlex picked "
+        "up, but published-online is 2025-12-17. PubMed 41425651 says vol 5, "
+        "issue 1, 2025, e-pub 2025-12-17, and volume 5 is the 2025 volume "
+        "(the journal started at vol 1 in 2021). Published December 2025."),
+    "10.1016/j.euprot.2019.07.009": ("2019-10-16",
+        "Team COUNCIL OF RICKS / EuPA Open Proteomics. The reverse of the usual "
+        "online-ahead-of-print case: Elsevier assigned it to a BACK-DATED issue "
+        "(published-print 2019-03), but it did not actually appear until later. "
+        "PubMed 31890550 records an ArticleDate of 2019-10-16 explicitly typed "
+        "'Electronic', Crossref registered the DOI the same day (created "
+        "2019-10-16), and the DOI suffix itself is j.euprot.2019.07.009. First "
+        "appearance is October 2019, so the March issue label would sort it "
+        "seven months too early."),
+    "10.1038/s41467-018-07454-w": ("2018-12-03",
+        "Chromatogram libraries. OpenAlex says 2018-11-27, which is Crossref's "
+        "'created' timestamp (when the DOI was registered), not publication. "
+        "Crossref published-online and PubMed's e-pub both say 2018-12-03. Only "
+        "a week out, but it crosses a month boundary so it changes the ordering "
+        "and the displayed month."),
+}
+
+# Online-first vs print-issue dates where BOTH are real and OpenAlex is fine.
+# Noted so a future audit doesn't re-report them as errors:
+#   10.1002/mas.21540  The Skyline ecosystem. Online 2017-07-09; the print issue
+#     (Mass Spectrom Rev 39(3)) did not appear until May 2020, so PubMed's issue
+#     date says 2020. We use 2017-07-09 -- when it appeared and began being
+#     cited, and the year the CV uses.
+#   Several others (Neuropeptides, Acquiring/Analyzing DIA, Nonlinear
+#     Regression) are online in one month and in an issue months later.
+#     OpenAlex already gives the earlier online date, so nothing to fix.
+#
+# Precision note: where a publisher only deposited a year+month, OpenAlex
+# synthesizes day 01 (e.g. 2016-05-01). The month is trustworthy, the day is a
+# placeholder -- which is why the page displays month + year and not the day.
+
+# --- Works the ORCID query cannot see, added back by DOI ---
+# OpenAlex sometimes splits one person across several author records. Where the
+# duplicate record has no ORCID on it, filtering by author.orcid (and even by
+# the canonical author.id) silently misses the work. Listing the DOI here pulls
+# it in explicitly; it then goes through the same curation as everything else.
+# Re-check these on a re-run: if OpenAlex merges the author records, the work
+# will arrive through the normal query and the entry here becomes a harmless
+# no-op (fetch_all_works results are deduped by work id).
+INCLUDE_DOIS = {
+    "10.64898/2026.05.04.722036":
+        "CpG island density predicts CBP/p300 dependency across 3D chromatin "
+        "clusters (bioRxiv, 2026). Lindsay is credited on a second, ORCID-less "
+        "OpenAlex author record (A5135562179, which OpenAlex also mis-affiliates "
+        "to 'TRIA Bioscience'), so neither author.orcid nor author.id:A5020587347 "
+        "returns it. Confirmed hers via PubMed 42146532, which lists her "
+        "affiliation as 'Talus Bioscience, Inc., Seattle, WA' alongside "
+        "co-authors Alexander J Federation and Julia Robbins.",
+}
+
 
 def norm_title(t):
     return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+
+
+def norm_doi(d):
+    """Bare lowercase DOI, so DATE_OVERRIDES keys match OpenAlex's URL form."""
+    if not d:
+        return ""
+    return re.sub(r"^https?://(dx\.)?doi\.org/", "", d.strip().lower().rstrip("."))
 
 
 def fetch_all_works(orcid):
@@ -66,6 +138,12 @@ def fetch_all_works(orcid):
         for work in data.get("results", []):
             yield work
         cursor = data.get("meta", {}).get("next_cursor")
+
+
+def fetch_by_doi(doi):
+    """Fetch a single work by DOI, for the INCLUDE_DOIS escape hatch."""
+    url = f"https://api.openalex.org/works/doi:{doi}?mailto={MAILTO}"
+    return get_with_retry(url)
 
 
 def get_with_retry(url, max_tries=6):
@@ -93,10 +171,22 @@ def simplify(work):
         (a.get("author") or {}).get("display_name")
         for a in work.get("authorships", [])
     ]
+    doi = work.get("doi")
+    date = work.get("publication_date") or ""
+    year = work.get("publication_year")
+    override = DATE_OVERRIDES.get(norm_doi(doi))
+    if override:
+        date = override[0]
+    # Keep year consistent with the date we actually use, so a corrected date
+    # can never leave a stale year behind it.
+    if date[:4].isdigit():
+        year = int(date[:4])
+
     return {
         "id": work.get("id"),
         "title": work.get("title") or work.get("display_name"),
-        "year": work.get("publication_year"),
+        "date": date,
+        "year": year,
         "venue": src.get("display_name"),
         "type": work.get("type"),
         "doi": work.get("doi"),
@@ -138,24 +228,58 @@ def curate(papers):
 
 def main():
     print(f"Fetching works for ORCID {ORCID} from OpenAlex...")
-    papers = [simplify(w) for w in fetch_all_works(ORCID)]
+    raw = list(fetch_all_works(ORCID))
+    seen = {w.get("id") for w in raw}
+
+    for doi in sorted(INCLUDE_DOIS):
+        work = fetch_by_doi(doi)
+        if work.get("id") in seen:
+            print(f"  {doi}: now in the ORCID results; INCLUDE_DOIS entry is "
+                  f"redundant and can be dropped.")
+            continue
+        print(f"  {doi}: added by hand (not visible to the ORCID query).")
+        raw.append(work)
+
+    raw_dates = {norm_doi(w.get("doi")): w.get("publication_date") for w in raw}
+    for doi, (date, _) in sorted(DATE_OVERRIDES.items()):
+        was = raw_dates.get(doi)
+        if was is None:
+            print(f"  date override for {doi} matched nothing -- stale entry?")
+        elif was == date:
+            print(f"  {doi}: OpenAlex now says {date} too; override is redundant.")
+        else:
+            print(f"  {doi}: date {was} -> {date} (OpenAlex is wrong).")
+
+    papers = [simplify(w) for w in raw]
     papers, dropped = curate(papers)
     print(f"Curation dropped: {dropped['type']} by type "
           f"({', '.join(sorted(DROP_TYPES))}), "
           f"{dropped['dup_preprint']} duplicate preprints, "
           f"{dropped['excluded']} manually excluded.")
 
-    papers.sort(key=lambda p: (p["year"] or 0), reverse=True)
+    # Reverse chronological to the day. Works with a month-only date sort as if
+    # they were on the 1st, which is how OpenAlex represents them anyway; the
+    # title tiebreak just keeps the order stable between runs.
+    papers.sort(key=lambda p: (p["date"] or f"{p['year'] or 0}-00-00",
+                               norm_title(p["title"])), reverse=True)
+
+    undated = [p for p in papers if not p["date"]]
+    if undated:
+        print(f"\n{len(undated)} works have no date and fell back to year-only "
+              f"ordering:")
+        for p in undated:
+            print(f"  {p['year']}  {p['title'][:70]}")
 
     with open("papers.json", "w", encoding="utf-8") as f:
         json.dump(papers, f, ensure_ascii=False, indent=2)
 
     with open("papers.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["title", "year", "venue", "type", "cited_by_count", "co-authors"])
+        w.writerow(["title", "date", "year", "venue", "type", "cited_by_count",
+                    "co-authors"])
         for p in papers:
             w.writerow([
-                p["title"], p["year"], p["venue"], p["type"],
+                p["title"], p["date"], p["year"], p["venue"], p["type"],
                 p["cited_by_count"], "; ".join(a for a in p["authors"] if a),
             ])
 
