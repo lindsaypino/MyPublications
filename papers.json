@@ -92,7 +92,7 @@
   },
   {
     "id": "https://openalex.org/W7147614722",
-    "title": "Carafe2 enables high quality <i>in silico</i> spectral library generation for timsTOF data-independent acquisition proteomics",
+    "title": "Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics",
     "date": "2026-03-31",
     "year": 2026,
     "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
@@ -131,11 +131,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1093/bioadv/vbaf301",
     "link": "https://doi.org/10.1093/bioadv/vbaf301",
-    "cited_by_count": 4,
+    "cited_by_count": 5,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 4
+        "cited_by_count": 5
       }
     ],
     "authors": [
@@ -185,11 +185,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1016/j.cell.2025.05.023",
     "link": "https://doi.org/10.1016/j.cell.2025.05.023",
-    "cited_by_count": 13,
+    "cited_by_count": 14,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 7
+        "cited_by_count": 8
       },
       {
         "year": 2025,
@@ -640,11 +640,11 @@
     "type": "article",
     "doi": "https://doi.org/10.7554/elife.55513",
     "link": "https://doi.org/10.7554/elife.55513",
-    "cited_by_count": 134,
+    "cited_by_count": 135,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 11
+        "cited_by_count": 12
       },
       {
         "year": 2025,
@@ -705,15 +705,15 @@
     "type": "article",
     "doi": "https://doi.org/10.1074/mcp.p119.001913",
     "link": "https://doi.org/10.1074/mcp.p119.001913",
-    "cited_by_count": 321,
+    "cited_by_count": 326,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 24
+        "cited_by_count": 30
       },
       {
         "year": 2025,
-        "cited_by_count": 74
+        "cited_by_count": 73
       },
       {
         "year": 2024,
@@ -752,11 +752,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1021/acs.jproteome.9b00666",
     "link": "https://doi.org/10.1021/acs.jproteome.9b00666",
-    "cited_by_count": 82,
+    "cited_by_count": 83,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 7
+        "cited_by_count": 8
       },
       {
         "year": 2025,
@@ -907,11 +907,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1038/s41467-018-07454-w",
     "link": "https://doi.org/10.1038/s41467-018-07454-w",
-    "cited_by_count": 595,
+    "cited_by_count": 598,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 46
+        "cited_by_count": 49
       },
       {
         "year": 2025,
@@ -1070,11 +1070,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1002/mas.21540",
     "link": "https://doi.org/10.1002/mas.21540",
-    "cited_by_count": 896,
+    "cited_by_count": 911,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 73
+        "cited_by_count": 89
       },
       {
         "year": 2025,
@@ -1086,7 +1086,7 @@
       },
       {
         "year": 2023,
-        "cited_by_count": 151
+        "cited_by_count": 150
       },
       {
         "year": 2022,
