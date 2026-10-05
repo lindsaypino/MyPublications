@@ -15,14 +15,14 @@
       "Daniele Canzani",
       "Lillian Tatka",
       "J. Sebastian Paez",
-      "Anastasiya Prymolenna",
+      "Anastasiya V. Prymolenna",
       "Andrea Gutierrez",
-      "Julia Robbins",
-      "Brian McEllin",
+      "Julia E. Robbins",
+      "Brian M. Mcellin",
       "Evan Hubbard",
-      "Kyle Siebenthall",
+      "Kyle T. Siebenthall",
       "Lindsay K. Pino",
-      "Alexander Federation"
+      "Alexander Joel Federation"
     ]
   },
   {
@@ -40,8 +40,8 @@
       "Anthony Wu",
       "Devon Kohler",
       "Pruthvi Prakash Navada",
-      "Julia Robbins",
-      "Gabriel Boyle",
+      "Julia E. Robbins",
+      "Gabriel E. Boyle",
       "Alex Boshart",
       "Klas Karis",
       "Jacques Neefjes",
@@ -72,19 +72,19 @@
       "Md Imdadul H. Khan",
       "Matthew S. Chang",
       "Yaw Asante",
-      "Maya K. Al-Haddad",
+      "Maya Al-Haddad",
       "Teagan Kukhta",
       "Bhavatharini Udhayakumar",
       "Ana María Garzón Porras",
       "Elena-Loredana Rotariu",
       "Saanvi Aneja",
-      "Jordyn L. Kelly",
-      "Carrietta B. Farma-Hai",
+      "Jordyn Kelly",
+      "Carrietta Farma-Hai",
       "Kavi Ullal",
-      "Diana Chin",
+      "Diana H. Chin",
       "Alexander J. Federation",
       "Lindsay K. Pino",
-      "Julia Robbins",
+      "Julia E. Robbins",
       "Marco Wachtel",
       "Shaun R. Stauffer",
       "Berkley E. Gryder"
@@ -108,10 +108,10 @@
     ],
     "authors": [
       "Bo Wen",
-      "J. Sebastian Paez",
+      "Jassir Páez",
       "Chris Hsu",
       "Daniele Canzani",
-      "Alexis Taylor Chang",
+      "Alexis T. Chang",
       "Nicholas Shulman",
       "Brendan MacLean",
       "Matthew D. Berg",
@@ -139,7 +139,7 @@
       }
     ],
     "authors": [
-      "Timo Sachsenberg",
+      "Timo T. Sachsenberg",
       "Lindsay K. Pino",
       "Marie A. Brunet",
       "Isabell Bludau",
@@ -162,18 +162,18 @@
     "authors": [
       "Lindsay K. Pino",
       "Daniele Canzani",
-      "Andrea Gutiérrez",
-      "Julia Robbins",
-      "Brian McEllin",
+      "Andrea Gutierrez",
+      "Julia E. Robbins",
+      "Brian M. Mcellin",
       "Evan Hubbard",
       "Erin Broderick",
       "Anastasiya V. Prymolenna",
       "Lillian Tatka",
       "Sebastian Juan Paez",
       "Gaëlle Mercenne",
-      "Kyle Siebenthall",
+      "Kyle T. Siebenthall",
       "William E. Fondrie",
-      "Alexander Federation"
+      "Alexander Joel Federation"
     ]
   },
   {
@@ -197,7 +197,7 @@
       }
     ],
     "authors": [
-      "Michael Gilbert",
+      "Michael B. Gilbert",
       "Karl M. Glastad",
       "Maxxum Fioriti",
       "Matan Sorek",
@@ -205,7 +205,7 @@
       "Freddy S Purnell",
       "Daniel C. Xu",
       "Lindsay K. Pino",
-      "A. Korotkov",
+      "Anatoly Korotkov",
       "Ali Biashad",
       "Josue Baeza",
       "Richard Lauman",
@@ -246,6 +246,37 @@
     ]
   },
   {
+    "id": "https://openalex.org/W4398185236",
+    "title": "Use of the ‘double diamond’ design framework to nurture creativity in life sciences research",
+    "date": "2024-05-21",
+    "year": 2024,
+    "venue": "Trends in Biochemical Sciences",
+    "type": "article",
+    "doi": "https://doi.org/10.1016/j.tibs.2024.04.008",
+    "link": "https://doi.org/10.1016/j.tibs.2024.04.008",
+    "cited_by_count": 16,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "authors": [
+      "Yvette Shen",
+      "Gundula Bosch",
+      "Lindsay K. Pino",
+      "Venkat Gopalan"
+    ]
+  },
+  {
     "id": "https://openalex.org/W4394757623",
     "title": "The future role of mass spectrometry in proteomics: Embracing new technologies and building bridges for higher impact",
     "date": "2024-04-11",
@@ -274,11 +305,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1021/acs.jproteome.2c00613",
     "link": "https://doi.org/10.1021/acs.jproteome.2c00613",
-    "cited_by_count": 6,
+    "cited_by_count": 7,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 1
+        "cited_by_count": 2
       },
       {
         "year": 2025,
@@ -294,7 +325,7 @@
       }
     ],
     "authors": [
-      "Carolyn Allen",
+      "Carolyn I. Allen",
       "Rico Meinl",
       "Sebastian Juan Paez",
       "Brian C. Searle",
@@ -336,7 +367,7 @@
       "F. Robison",
       "Simone Sidoli",
       "Roberto Bonasio",
-      "Benjamin A. García"
+      "Benjamin Aaron Garcia"
     ]
   },
   {
@@ -369,11 +400,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1016/j.cmet.2022.12.004",
     "link": "https://doi.org/10.1016/j.cmet.2022.12.004",
-    "cited_by_count": 79,
+    "cited_by_count": 82,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 13
+        "cited_by_count": 14
       },
       {
         "year": 2025,
@@ -385,22 +416,26 @@
       },
       {
         "year": 2023,
-        "cited_by_count": 16
+        "cited_by_count": 17
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 1
       }
     ],
     "authors": [
-      "Thomas F. Martínez",
+      "Thomas Farid Martinez",
       "Sally Lyons‐Abbott",
       "Angie L. Bookout",
       "Eduardo Vieira de Souza",
       "Cynthia J. Donaldson",
-      "Joan Vaughan",
+      "Joan M. Vaughan",
       "Calvin J. Lau",
       "Ariel Abramov",
       "Arian F. Baquero",
-      "Karalee Baquero",
+      "Karalee C. Baquero",
       "Dave Friedrich",
-      "Justin Huard",
+      "Justin N. Huard",
       "Ray Davis",
       "Bong-Chul Kim",
       "Ty Koch",
@@ -414,7 +449,7 @@
       "Yu Zhang",
       "Garrett Zipp",
       "Cristiano Valim Bizarro",
-      "Maxim N. Shokhirev",
+      "Maxim Nikolaievich Shokhirev",
       "Andrew J. Whittle",
       "Brian C. Searle",
       "Michael J. MacCoss",
@@ -465,7 +500,7 @@
     "type": "article",
     "doi": "https://doi.org/10.1080/14789450.2021.1976149",
     "link": "https://doi.org/10.1080/14789450.2021.1976149",
-    "cited_by_count": 10,
+    "cited_by_count": 11,
     "counts_by_year": [
       {
         "year": 2026,
@@ -478,6 +513,10 @@
       {
         "year": 2024,
         "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
       },
       {
         "year": 2022,
@@ -498,7 +537,7 @@
     "type": "article",
     "doi": "https://doi.org/10.1186/s13059-021-02360-9",
     "link": "https://doi.org/10.1186/s13059-021-02360-9",
-    "cited_by_count": 33,
+    "cited_by_count": 34,
     "counts_by_year": [
       {
         "year": 2026,
@@ -514,7 +553,7 @@
       },
       {
         "year": 2023,
-        "cited_by_count": 4
+        "cited_by_count": 5
       },
       {
         "year": 2022,
@@ -532,9 +571,9 @@
       "Lindsay K. Pino",
       "Henry L. Bushnell",
       "Ken Takashima",
-      "Colette Fritsche",
+      "Colette M. Fritsche",
       "George Sabin",
-      "Benjamin A. García",
+      "Benjamin Aaron Garcia",
       "Paul L. Greer",
       "Eric Lieberman Greer"
     ]
@@ -548,11 +587,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1021/acs.jproteome.0c00938",
     "link": "https://doi.org/10.1021/acs.jproteome.0c00938",
-    "cited_by_count": 70,
+    "cited_by_count": 71,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 5
+        "cited_by_count": 6
       },
       {
         "year": 2025,
@@ -580,7 +619,7 @@
       "Josue Baeza",
       "Richard Lauman",
       "Birgit Schilling",
-      "Benjamin A. García"
+      "Benjamin Aaron Garcia"
     ]
   },
   {
@@ -675,23 +714,23 @@
       "Ying Ann Chiao",
       "Huiliang Zhang",
       "Mariya T. Sweetwyne",
-      "Jeremy Whitson",
-      "Ying S. Ting",
+      "Jeremy D. Whitson",
+      "Ying Sonia Ting",
       "Nathan Basisty",
       "Lindsay K. Pino",
-      "Ellen Quarles",
-      "Ngoc-Han Nguyen",
+      "Ellen K. Quarles",
+      "Ngoc-Han Thi Nguyen",
       "Matthew D. Campbell",
       "Tong Zhang",
-      "Matthew Gaffrey",
+      "Matthew J. Gaffrey",
       "Gennifer E. Merrihew",
       "Lu Wang",
       "Yongping Yue",
       "Dongsheng Duan",
-      "Henk Granzier",
+      "Henk L. M. Granzier",
       "Hazel H. Szeto",
       "Weijun Qian",
-      "David J. Marcinek",
+      "David Joseph Marcinek",
       "Michael J. MacCoss",
       "Peter S. Rabinovitch"
     ]
@@ -705,11 +744,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1074/mcp.p119.001913",
     "link": "https://doi.org/10.1074/mcp.p119.001913",
-    "cited_by_count": 326,
+    "cited_by_count": 329,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 30
+        "cited_by_count": 33
       },
       {
         "year": 2025,
@@ -801,7 +840,7 @@
     "type": "article",
     "doi": "https://doi.org/10.1016/j.celrep.2020.01.096",
     "link": "https://doi.org/10.1016/j.celrep.2020.01.096",
-    "cited_by_count": 44,
+    "cited_by_count": 45,
     "counts_by_year": [
       {
         "year": 2026,
@@ -817,7 +856,7 @@
       },
       {
         "year": 2023,
-        "cited_by_count": 18
+        "cited_by_count": 19
       },
       {
         "year": 2022,
@@ -833,18 +872,18 @@
       }
     ],
     "authors": [
-      "Alexander Federation",
+      "Alexander Joel Federation",
       "Vivek Nandakumar",
       "Brian C. Searle",
       "Andrew B. Stergachis",
       "Hao Wang",
       "Lindsay K. Pino",
       "Gennifer E. Merrihew",
-      "Ying S. Ting",
-      "Nicholas P. Howard",
+      "Ying Sonia Ting",
+      "Nicholas Howard",
       "Tanya Kutyavin",
       "Michael J. MacCoss",
-      "J Stamatoyannopoulos"
+      "John A. Stamatoyannopoulos"
     ]
   },
   {
@@ -907,11 +946,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1038/s41467-018-07454-w",
     "link": "https://doi.org/10.1038/s41467-018-07454-w",
-    "cited_by_count": 598,
+    "cited_by_count": 601,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 49
+        "cited_by_count": 50
       },
       {
         "year": 2025,
@@ -931,11 +970,11 @@
       },
       {
         "year": 2021,
-        "cited_by_count": 72
+        "cited_by_count": 73
       },
       {
         "year": 2020,
-        "cited_by_count": 57
+        "cited_by_count": 58
       },
       {
         "year": 2019,
@@ -950,7 +989,7 @@
       "Brian C. Searle",
       "Lindsay K. Pino",
       "Jarrett D. Egertson",
-      "Ying S. Ting",
+      "Ying Sonia Ting",
       "Robert Lawrence",
       "Brendan MacLean",
       "Judit Villén",
@@ -966,7 +1005,7 @@
     "type": "article",
     "doi": "https://doi.org/10.1021/acs.analchem.8b04581",
     "link": "https://doi.org/10.1021/acs.analchem.8b04581",
-    "cited_by_count": 37,
+    "cited_by_count": 39,
     "counts_by_year": [
       {
         "year": 2025,
@@ -986,17 +1025,17 @@
       },
       {
         "year": 2020,
-        "cited_by_count": 9
+        "cited_by_count": 10
       },
       {
         "year": 2019,
-        "cited_by_count": 7
+        "cited_by_count": 8
       }
     ],
     "authors": [
       "Lindsay K. Pino",
       "Brian C. Searle",
-      "Eric Huang",
+      "Eric L. Huang",
       "William Stafford Noble",
       "Andrew N. Hoofnagle",
       "Michael J. MacCoss"
@@ -1070,11 +1109,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1002/mas.21540",
     "link": "https://doi.org/10.1002/mas.21540",
-    "cited_by_count": 911,
+    "cited_by_count": 919,
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 89
+        "cited_by_count": 94
       },
       {
         "year": 2025,
@@ -1094,11 +1133,11 @@
       },
       {
         "year": 2021,
-        "cited_by_count": 116
+        "cited_by_count": 118
       },
       {
         "year": 2020,
-        "cited_by_count": 79
+        "cited_by_count": 80
       },
       {
         "year": 2019,
@@ -1177,20 +1216,20 @@
     "authors": [
       "Jennifer G. Abelin",
       "Jinal Patel",
-      "Xiaodong Lü",
+      "Xiaodong Lu",
       "Caitlin M. Feeney",
       "Lọla Fagbami",
       "Amanda L. Creech",
       "Roger Hu",
-      "Daniel D. Lam",
+      "Daniel Lam",
       "Desiree Davison",
       "Lindsay K. Pino",
       "Jana Qiao",
-      "Eric Kuhn",
+      "Eric W. Kuhn",
       "Adam Officer",
       "Jianxue Li",
       "Susan E. Abbatiello",
-      "Aravind Subramanian",
+      "Aravind N. Subramanian",
       "Richard L. Sidman",
       "Evan Snyder",
       "Steven A. Carr",
